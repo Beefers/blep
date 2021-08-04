@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://gitlab.com/Beefers/blep/blep/issues"
   },
-  "homepage": "https://gitlab.com/Beefers/blep/blep#readme"
+  "homepage": "https://gitlab.com/Beefers/blep/blep#readme",
+  "dependencies": {
+    "@powercord/simple-git-wasm": "^0.1.0"
+  }
 }
