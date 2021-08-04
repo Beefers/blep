@@ -17,6 +17,7 @@
   },
   "homepage": "https://gitlab.com/Beefers/blep/blep#readme",
   "dependencies": {
-    "@powercord/simple-git-wasm": "^0.1.0"
+    "@powercord/simple-git-wasm": "^0.1.0",
+    "isomorphic-git": "^1.9.2"
   }
 }
