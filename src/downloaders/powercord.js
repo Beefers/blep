@@ -1,5 +1,5 @@
 //? blep
-//* Powercord Injector
+//* Powercord Downloader
 
 const git = require('isomorphic-git')
 const http = require('isomorphic-git/http/node')
@@ -15,10 +15,3 @@ try {
 } catch(err) {
     console.error('whoops\n', err)
 }
-
-const powercordPath = path.join(__dirname, '../../', 'clients', 'powercord')
-
-console.log('Injecting Powercord')
-
-// hacky method
-const injectPowercord = require('child_process').spawnSync('node', [path.join(powercordPath, 'injectors', 'index.js'), 'inject'])
